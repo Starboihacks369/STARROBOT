@@ -1,4 +1,4 @@
-name: Lets Start StarXRobot
+name: Lets Start Queenxrobot
 on: push
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'StarXRobot'
+          commit_message: 'Queenxrobot'
           commit_options: '--no-verify'
           repository: .
           commit_user_name: AnonymousBoy1025
